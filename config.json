@@ -1,0 +1,22 @@
+{
+  "routes": [
+    { "path": "/", "src": "src/pages/Splash.tsx" },
+    { "path": "/login", "src": "src/pages/Login.tsx" },
+    { "path": "/otp", "src": "src/pages/OtpVerify.tsx" },
+    { "path": "/profile-setup", "src": "src/pages/ProfileSetup.tsx" },
+    { "path": "/home", "src": "src/pages/Home.tsx" },
+    { "path": "/user-profile", "src": "src/pages/UserProfile.tsx" },
+    { "path": "/voice-call", "src": "src/pages/VoiceCall.tsx" },
+    { "path": "/incoming-call", "src": "src/pages/IncomingCall.tsx" },
+    { "path": "/settings", "src": "src/pages/Settings.tsx" }
+  ],
+  "components": [
+    { "name": "BottomNav", "src": "src/components/BottomNav.tsx" },
+    { "name": "UserCard", "src": "src/components/UserCard.tsx" },
+    { "name": "OnlineAvatar", "src": "src/components/OnlineAvatar.tsx" },
+    { "name": "AvatarDisplay", "src": "src/components/AvatarDisplay.tsx" },
+    { "name": "CallButton", "src": "src/components/CallButton.tsx" },
+    { "name": "LanguageTag", "src": "src/components/LanguageTag.tsx" },
+    { "name": "WaveAnimation", "src": "src/components/WaveAnimation.tsx" }
+  ]
+}
