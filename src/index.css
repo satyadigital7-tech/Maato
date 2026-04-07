@@ -181,6 +181,18 @@
   animation: float 3s ease-in-out infinite;
 }
 
+@keyframes floatOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(0.8) translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-200px) scale(1.5) translateX(var(--x-offset));
+  }
+}
+
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 4px;
